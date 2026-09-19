@@ -1,0 +1,122 @@
+body {
+	background-color: #006cb0;
+	font-family: Arial;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.page-main {
+	background-color: #d4e6f7;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	padding: 24px 36px;
+	position: relative;
+}
+
+.page-header {
+	font-size: 44px;
+	margin-bottom: 32px;
+}
+
+.link-input {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 32px;
+}
+
+.card-container {
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.card-border {
+	display: flex;
+	margin: 0px auto;
+	background-color: #343434;
+	border-radius: 12px;
+	width: 315px;
+	height: 440px;
+	padding: 7px
+}
+
+.card-back {
+	display: flex;
+	flex-direction: column;
+	background-color: #95a8ba;
+	border-radius: 12px;
+	width: 100%;
+}
+
+.title-container {
+	background-color: #006cb0;
+	border-radius: 14px;
+	margin: auto;
+	width: 94%;
+	height: 8%;
+}
+
+.card-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #ffffff;
+}
+
+.img-container {
+	position: relative;
+	background-color: #d4e6f7;
+	border-radius: 14px;
+	margin: auto;
+	width: 94%;
+	height: 50%;
+}
+
+.tier-tab {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #006cb0;
+	border-radius: 0 0 0 32px;
+	font-size: 30px;
+	color: #ffffff;
+	width: 28%;
+	height: 32%;
+	right: 0;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto auto auto;
+	width: 90%;
+	height: 36%;
+}
+
+.abilities-header {
+	margin: auto 0px;
+	text-align: center;
+	height: 14%;
+}
+
+.abilities-list {
+	background-color: #006cb0;
+	border-radius: 14px;
+	margin: auto 0px;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 12px;
+	height: 70%;
+}
+
+.card-img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
