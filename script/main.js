@@ -1,11 +1,17 @@
-var node = document.getElementById("card-master");
+var imgTarget = document.getElementById("card-master");
+var downloadButton = document.getElementById("download-button");
 
-domtoimage.toPng(node)
-  .then(function (dataURL) {
-    var img = new Image();
-    img.src = dataUrl;
-    document.body.appendChild(img);
-  })
-  .catch(function (error) {
-    console.error('failed to save image', error);
+downloadButton.addEventListener("click", () => {
+  domtoimage.toPng(imgTarget)
+    .then(function (dataURL) {
+      const link = document.createElement("a");
+      link.download = "vs_battle_card.png";
+      link.href = dataUrl;
+
+      link.click();
+    })
+    .catch(function (error) {
+      console.error('failed to save image', error);
   });
+});
+
