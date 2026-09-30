@@ -69,6 +69,9 @@ body {
 }
 
 .img-container {
+	background-image: url("../img/black-hole.jpg");
+	background-position: center;
+	background-size: cover;
 	position: relative;
 	background-color: #d4e6f7;
 	border-radius: 14px;
@@ -97,6 +100,36 @@ body {
 	margin: 0px auto auto auto;
 	width: 90%;
 	height: 36%;
+}
+
+.attack-potency {
+	display: flex;
+	background-color: #d10018;
+	border-radius: 14px 0px 0px 14px;
+	margin: auto 0;
+	padding-left: 10px;
+	color: #ffffff;
+	align-items: center;
+	height: 32%;
+}
+
+.attack-potency span {
+	width: 50%;
+}
+
+.speed {
+	display: flex;
+	background-color: #0f9df5;
+	border-radius: 0px 14px 14px 0px;
+	margin: auto 0;
+	padding-left: 10px;
+	color: #ffffff;
+	align-items: center;
+	height: 32%;
+}
+
+.speed span {
+	width: 50%;
 }
 
 .abilities-header {
